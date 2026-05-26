@@ -196,35 +196,6 @@ python main.py --goal "I want to learn PHP programming"
 
 If LLM/web-search is unavailable, the app automatically falls back to local/API-based deterministic guidance.
 
-## Teaching Slide Template (PPTX)
-
-This repo includes a final multi-slide teaching deck generator for Microsoft Agent Framework topics.
-
-Generate the slide file:
-
-```bash
-python scripts/generate_training_slide.py
-```
-
-Generated output:
-
-- `slides/maf_training_template.pptx`
-- `slides/maf_final_teaching_materials.pptx`
-
-Deck contents include:
-
-- Planning and execution workflows
-- Task chaining and model-directed tool routing
-- Error handling, guardrails, compliance, and approval gates
-- Common enterprise use cases
-- Live demo checklist and transfer steps for your company template
-
-For your company-branded deck workflow, use this copy-paste prompt:
-
-- `slides/company_template_prompt.txt`
-
-It is intentionally template-friendly so you can paste the content into your work laptop and apply your company PowerPoint theme.
-
 ## Expected Output
 
 The app prints logs and a final JSON payload:
